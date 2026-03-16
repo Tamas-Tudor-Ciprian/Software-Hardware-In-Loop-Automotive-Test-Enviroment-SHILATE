@@ -122,7 +122,7 @@ Using `InvariantCulture` also ensures the decimal separator is always `.` regard
 
 - [ ] Configure **Kuksa Feeder** on Leda to consume MQTT topics and map them to VSS paths
 - [ ] Verify end-to-end round trip: `kuksa-client → getValue Vehicle.Speed` returns value published by Unity
-- [ ] Connect simulation inputs (e.g., vehicle controller) to `LedaBroker` fields so real telemetry is published
+- [x] Connect simulation inputs (e.g., vehicle controller) to `LedaBroker` fields so real telemetry is published → **Done in Stage 1.5** (see `STAGE1_5_PROGRESS.md`)
 
 ## Future Stages
 
